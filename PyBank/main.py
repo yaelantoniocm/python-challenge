@@ -5,7 +5,7 @@ budget_csv = os.path.join("Resources", "budget_data.csv")
 
 
 class Main:
-    def budget_data_analyzer(budget_csv):
+    def budget_data_analyzer():
         # Variables
         months = 0
         total_calculate = 0
@@ -62,6 +62,7 @@ class Main:
         # print(elemt)
 
         # Print the analysis results
+        print(f"")
         print("Financial Analysis")
         print("-------------------------")
         print(f"Total Months: {months}")
@@ -75,4 +76,4 @@ class Main:
 
 if __name__ == "__main__":
     analyzer = Main
-    analyzer.budget_data_analyzer(budget_csv)
+    analyzer.budget_data_analyzer()
