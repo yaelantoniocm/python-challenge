@@ -59,9 +59,6 @@ class Main:
         # for elemt in changes:
         # print(elemt)
 
-        # for elemt in greatest_decrease_profits:
-        # print(elemt)
-
         # Print the analysis results
         print(f"")
         print("Financial Analysis")
