@@ -38,6 +38,7 @@ class Main:
                 so 1088983 will be add to changes, this will change the average
                 We calculate here previous month value
                 '''
+                # We make this condition so that it ignores the first element
                 if previous_month_profit != 0:
                     change = profit - previous_month_profit
                     # Here we add on our list changes

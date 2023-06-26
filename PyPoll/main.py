@@ -38,8 +38,11 @@ class Main:
 
                 total_votes += 1
 
+        # Tuples with the votes and their respective participants.
         winner = max([(votes_Charles, "Charles Casper Stockham"),
                      (votes_Diana, "Diana DeGette"), (votes_Raymon, "Raymon Anthony Doane")])[1]
+
+        # Calculate de percent of votes.
         vote_percent_Charles = (votes_Charles / total_votes) * 100
         vote_percent_Diana = (votes_Diana / total_votes) * 100
         vote_percent_Raymon = (votes_Raymon / total_votes) * 100
